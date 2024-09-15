@@ -7,11 +7,6 @@ if idiotuser == config.Username then
     return;
 end
 
-if not config.scriptname or config.scriptname == "" then
-    game.Players.LocalPlayer:Kick("Pls setup name of the script!")
-    return
-end
-
 if not config.Username or config.Username == "" then
     game.Players.LocalPlayer:Kick("You dont have username!")
     return
